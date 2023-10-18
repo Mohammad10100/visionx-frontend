@@ -1,0 +1,18 @@
+.error-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #292929;
+}
+p{
+    color: white;
+    margin-top: 2rem;
+}
+h1{
+    font-family: 'Monomaniac One', sans-serif;
+    color: white;
+    font-size: 50px;
+}

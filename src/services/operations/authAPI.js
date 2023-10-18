@@ -105,7 +105,7 @@ export function login(email, password, navigate) {
       dispatch(setUser({ ...response.data.user, image: userImage }))
       localStorage.setItem('user', JSON.stringify(response.data.user))
       localStorage.setItem("token", JSON.stringify(response.data.token))
-      navigate("/dashboard")
+      navigate("/")
       toast.success("Login Successful")
     } catch (error) {
       if (error.response.data.status==405) {
